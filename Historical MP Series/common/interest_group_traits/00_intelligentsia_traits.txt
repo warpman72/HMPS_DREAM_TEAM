@@ -3,7 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		country_legitimacy_base_add = 10
+		country_legitimacy_base_add = 10 #Default
 		#country_legitimacy_govt_total_clout_add = 25
 	}
 }
@@ -13,7 +13,7 @@ ig_trait_avant_garde = {
 	min_approval = happy
 	
 	modifier = {
-		country_society_tech_research_speed_mult = 0.1
+		country_society_tech_research_speed_mult = 0.1 #Default
 	}
 }
 
@@ -22,25 +22,27 @@ ig_trait_social_criticism = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_turmoil_effects_mult  = 0.25
+		state_turmoil_effects_mult  = 0.25 #Default
 	}
 }
 
-ig_trait_restoration = {
+ig_trait_restoration = {#China
 	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
 	min_approval = loyal
 
 	modifier = {
 		country_authority_mult = 1
+		#country_legitimacy_base_add = 10 #Default
 	}
 }
 
-ig_trait_crisis_of_identity = {
+ig_trait_crisis_of_identity = {# Ottoman/Russian
 	icon = "gfx/interface/icons/ig_trait_icons/social_criticism.dds"
 	max_approval = unhappy
 
 	modifier = {
 		state_assimilation_mult = -0.15
+		state_turmoil_effects_mult  = 0.25 #Default
 	}
 }
 
@@ -50,6 +52,7 @@ ig_trait_les_beaux_arts = {
 
 	modifier = {
 		country_prestige_mult = 0.10
+		country_legitimacy_base_add = 10 #Default
 	}
 }
 
@@ -59,6 +62,7 @@ ig_trait_brasilidade = {
 
 	modifier = {
 		country_prestige_mult = 0.10
+		country_legitimacy_base_add = 10 #Default
 	}
 }
 
@@ -68,10 +72,11 @@ ig_trait_bachareis = {
 
 	modifier = {
 		state_radicals_from_political_movements_mult = -0.1
+		country_society_tech_research_speed_mult = 0.1 #Default
 	}
 }
 
-ig_trait_swaraj = {
+ig_trait_swaraj = {#BIC
 	icon = "gfx/interface/icons/ig_trait_icons/social_criticism.dds"
 	max_approval = unhappy
 	
@@ -80,9 +85,10 @@ ig_trait_swaraj = {
 		state_radicalism_increases_cultural_erasure_mult = 0.05
 		state_radicalism_increases_open_prejudice_mult = 0.05
 		political_movement_radicalism_add = 0.10
+		state_turmoil_effects_mult  = 0.25 #Default
 	}
 }
-ig_trait_westernisation = {
+ig_trait_westernisation = {#BIC
 	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
 	min_approval = loyal
 	
@@ -90,6 +96,7 @@ ig_trait_westernisation = {
 		state_radicalism_increases_violent_hostility_mult = -0.05
 		state_radicalism_increases_cultural_erasure_mult = -0.05
 		state_radicalism_increases_open_prejudice_mult = -0.05
+		#country_legitimacy_base_add = 10 #Default
 	}
 }
 
@@ -101,5 +108,6 @@ ite_ig_trait_imperial_examinations = {
 	modifier = {
 		state_pop_qualifications_mult = 0.10
 		state_assimilation_mult = 0.10
+		#country_society_tech_research_speed_mult = 0.1 #Default
 	}
 }

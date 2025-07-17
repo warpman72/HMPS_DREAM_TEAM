@@ -90,6 +90,7 @@ ig_trait_yeshivot = {
 
 	modifier = {
 		state_education_access_add = 0.1
+		country_tech_spread_mult = 0.1
 	}
 }
 
