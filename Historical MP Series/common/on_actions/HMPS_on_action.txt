@@ -1052,10 +1052,11 @@ HMPS_handle_demographic_shifts = {
 			name = modifier_demographic_workforce_ratio
 			multiplier = {
 				add = average_sol
-				subtract = 10
+				subtract = 15
 				multiply = 10
-				divide = 15
-				max = 25
+				divide = 10
+				min = 0
+				max = 10
 			}
 			days = -1
 		}
