@@ -12,9 +12,10 @@ ig_trait_honest_work = {
 	min_approval = happy
 	
 	modifier = {
-		building_group_bg_agriculture_throughput_add = 0.1
-		building_group_bg_plantations_throughput_add = 0.1
-		building_group_bg_ranching_throughput_add = 0.1
+		building_group_bg_agriculture_throughput_add = 0.05
+		building_group_bg_plantations_throughput_add = 0.05
+		building_group_bg_ranching_throughput_add = 0.05
+		#building_group_bg_mining_throughput_add = 0.05
 	}
 }
 
@@ -23,7 +24,7 @@ ig_trait_old_ways = {
 	max_approval = unhappy
 	
 	modifier = {
-		country_tech_spread_mult = -0.05
+		state_pop_qualifications_mult = -0.1
 	}
 }
 

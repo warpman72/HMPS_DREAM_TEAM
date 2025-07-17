@@ -12,7 +12,7 @@ ig_trait_family_ties = {
 	min_approval = happy
 	
 	modifier = {
-		country_influence_mult = 0.05
+		state_tax_capacity_mult = 0.05
 	}
 }
 
@@ -21,9 +21,7 @@ ig_trait_noble_privileges = {
 	max_approval = unhappy
 	
 	modifier = {
-		building_group_bg_agriculture_tax_mult = -0.05
-		building_group_bg_ranching_tax_mult = -0.05
-		building_group_bg_plantations_tax_mult = -0.05
+		state_tax_waste_add = 0.025
 	}
 }
 

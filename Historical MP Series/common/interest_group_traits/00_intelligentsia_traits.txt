@@ -3,7 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_migration_pull_mult = 0.075
+		state_migration_pull_mult = 0.10
 	}
 }
 
@@ -21,7 +21,7 @@ ig_trait_social_criticism = {
 	max_approval = unhappy
 	
 	modifier = {
-		country_prestige_mult = -0.05
+		state_turmoil_effects_mult  = 0.25
 	}
 }
 

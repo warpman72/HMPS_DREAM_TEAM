@@ -21,7 +21,8 @@ ig_trait_tax_avoidance = {
 	max_approval = unhappy
 	
 	modifier = {
-		building_group_bg_manufacturing_tax_mult = -0.05
+		country_company_throughput_bonus_add = -0.05
+		country_company_construction_efficiency_bonus_add = -0.05
 	}
 }
 
