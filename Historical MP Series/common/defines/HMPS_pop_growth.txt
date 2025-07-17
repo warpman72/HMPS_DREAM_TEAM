@@ -13,7 +13,7 @@
 
 @mortality_at_0 = 7		#mortality_rate_at_sol_0
 @mortality_at_A = 5		#mortality_rate_at_sol_A
-@mortality_at_C = 2.25		#mortality_rate_at_sol_C
+@mortality_at_C = 2		#mortality_rate_at_sol_C
 @mortality_at_D = 1		#mortality_rate_at_sol_D
 
 #### END OF COPY VALUES FROM DESMOS
