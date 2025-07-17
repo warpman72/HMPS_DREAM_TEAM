@@ -1038,3 +1038,25 @@ HMPS_interest_by_rank_action = {
 		}
 	}
 }
+
+HMPS_handle_demographic_shifts = {
+	effect = {
+		if = {
+			limit = {
+				has_modifier = modifier_demographic_workforce_ratio
+			}
+			remove_modifier = modifier_demographic_workforce_ratio
+		}
+		add_modifier = {
+			name = modifier_demographic_workforce_ratio
+			multiplier = {
+				add = average_sol
+				subtract = 10
+				multiply = 10
+				divide = 15
+				max = 25
+			}
+			days = -1
+		}
+	}
+}
