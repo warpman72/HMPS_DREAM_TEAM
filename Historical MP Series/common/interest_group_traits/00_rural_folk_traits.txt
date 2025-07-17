@@ -16,7 +16,6 @@ ig_trait_honest_work = {
 		building_group_bg_agriculture_throughput_add = 0.1
 		building_group_bg_plantations_throughput_add = 0.1
 		building_group_bg_ranching_throughput_add = 0.1
-		#building_group_bg_mining_throughput_add = 0.1
 	}
 }
 
