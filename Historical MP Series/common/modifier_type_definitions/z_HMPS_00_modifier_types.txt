@@ -234,3 +234,12 @@ yearly_population_replacement = { #HMPS, does nothing, only for a tool tip
 	percent=yes
 	decimals=2
 }
+
+state_urbanization_per_level_mult={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
