@@ -12,7 +12,7 @@ ig_trait_middle_managers = {
 	min_approval = happy
 	
 	modifier = {
-		country_bureaucracy_mult = 0.05
+		country_bureaucracy_mult = 0.1
 	}
 }
 
