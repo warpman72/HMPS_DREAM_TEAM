@@ -3,7 +3,8 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_migration_pull_mult = 0.10
+		country_legitimacy_base_add = 10
+		#country_legitimacy_govt_total_clout_add = 25
 	}
 }
 

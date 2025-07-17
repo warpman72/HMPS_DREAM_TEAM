@@ -3,6 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
+		state_urbanization_per_level_mult = 0.5
 		state_infrastructure_mult = 0.1
 	}
 }
