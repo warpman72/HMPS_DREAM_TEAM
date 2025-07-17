@@ -24,7 +24,7 @@ ig_trait_old_ways = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_pop_qualifications_mult = -0.1
+		state_pop_qualifications_mult = -0.25
 	}
 }
 

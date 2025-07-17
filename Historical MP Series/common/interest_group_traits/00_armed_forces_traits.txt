@@ -22,7 +22,7 @@ ig_trait_materiel_waste = {
 	max_approval = unhappy
 	
 	modifier = {
-		country_military_goods_cost_mult = 0.1
+		country_military_goods_cost_mult = 0.15
 	}
 }
 
