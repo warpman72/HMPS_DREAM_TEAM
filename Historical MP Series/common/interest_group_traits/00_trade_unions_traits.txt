@@ -3,7 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_working_adult_ratio_add = 0.05
+		state_construction_mult = 0.05
 	}
 }
 
@@ -21,7 +21,7 @@ ig_trait_work_to_rule = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_construction_mult = -0.075
+		building_economy_of_scale_level_cap_add = -5
 	}
 }
 
