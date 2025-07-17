@@ -63,7 +63,7 @@ ig_trait_ventilate_unify_beautify = {
 	modifier = {
 		country_prestige_mult = 0.05
 		state_construction_mult = 0.1
-		state_capitalists_investment_pool_efficiency_mult = 0.1
+		#state_capitalists_investment_pool_efficiency_mult = 0.1
 	}
 }
 
