@@ -22,7 +22,7 @@ ig_trait_social_criticism = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_turmoil_effects_mult  = 0.25 #Default
+		state_turmoil_effects_mult  = 0.15 #Default
 	}
 }
 
