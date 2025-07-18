@@ -638,10 +638,10 @@ principle_external_trade_2 = {
 		state_trade_advantage_mult = 0.1
 		
 
-		# Also unlocks a PM that grants Trade Centers Influence, checked with trigger on PM
+		#NOT IM HMPS# Also unlocks a PM that grants Trade Centers Influence, checked with trigger on PM
 
 		# Increased trade advantage with world market
-		country_max_declared_interests_add = 2
+		country_max_declared_interests_add = 3
 	}
 
 	ai_weight = {
@@ -657,8 +657,9 @@ principle_external_trade_3 = {
 		# Modifiers from previous level(s)
 		#state_trade_capacity_mult = 0.1
 		state_trade_advantage_mult = 0.1
+		country_max_declared_interests_add = 3
 
-		# Also unlocks a PM that grants Trade Centers Influence, checked with trigger on PM (from level 2)
+		#NOT IM HMPS# Also unlocks a PM that grants Trade Centers Influence, checked with trigger on PM (from level 2)
 
 		# Members no longer get a penalty to Trade Advantage due to lack of interests
 		country_no_advantage_loss_from_lack_of_interest_bool = yes
