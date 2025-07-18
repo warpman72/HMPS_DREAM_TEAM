@@ -3,7 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 
@@ -30,7 +30,7 @@ ig_trait_profitable_estates = {
 	min_approval = loyal
 
 	modifier = {
-		state_aristocrats_investment_pool_efficiency_mult = 0.15
+		state_aristocrats_investment_pool_efficiency_mult = 0.25
 	}
 }
 
@@ -61,7 +61,7 @@ ig_trait_latifundios = {
 	modifier = {
 		building_group_bg_agriculture_tax_mult = 0.1
 		building_group_bg_plantations_tax_mult = 0.1
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 
@@ -71,7 +71,7 @@ ig_trait_junkerdom = {
 
 	modifier = {
 		country_authority_mult = 0.1
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 
@@ -82,7 +82,7 @@ ig_trait_patrician_philanthropy = {
 	modifier = {
 		state_loyalists_from_political_movements_mult = 0.1
 		country_prestige_mult = 0.05
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 
@@ -92,7 +92,7 @@ ig_trait_wiener_walzer = {
 
 	modifier = {
 		country_prestige_mult = 0.15
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 
@@ -133,7 +133,7 @@ ite_ig_trait_junzi = {
 	
 	modifier = {
 		country_loyalists_from_legitimacy_mult = 0.25
-		state_aristocrats_investment_pool_efficiency_mult = 0.1 #Generic
+		state_aristocrats_investment_pool_efficiency_mult = 0.2 #Generic
 	}
 }
 ite_ig_trait_scholar_bureaucrats = {
