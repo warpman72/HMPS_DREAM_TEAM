@@ -63,3 +63,8 @@
  notification_took_war_support_tooltip:1 "It appears they will keep up the fight"
  
  hmps_oos_ignore: "Ignore and Continue Playing"
+
+
+ notification_broke_truce_name:1 "Truce Broken"
+ notification_broke_truce_desc:1 "[SCOPE.sCountry('broke_truce_scope').GetName] has broken a truce."
+ notification_broke_truce_tooltip:1 "It appears they are justifying war goals."

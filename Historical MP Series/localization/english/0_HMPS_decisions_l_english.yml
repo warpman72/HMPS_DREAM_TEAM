@@ -77,6 +77,9 @@
  levy_war_taxes_desc:0 "Due to the scale of the war, this crisis can be used to increase control of national output."
  levy_war_taxes.t:0 "90 days must pass"
  
+ truce_break:0 "Truce Break"
+ truce_break_desc:0 "Truces are not unbreakable rules of nature. Costs 75 Infamy but Nationalism, Pan-Nationalism, Multilateral Alliances and Mass Propaganda each reduce this Infamy cost by 15. You can still cancel after pressing this button."
+ 
  remove_FAQ:0 "Remove FAQ"
  remove_FAQ_desc:0 "Permanently remove the FAQ."
  read_FAQ:0 "Open FAQ"
