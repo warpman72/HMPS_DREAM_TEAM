@@ -419,10 +419,10 @@ STATE_LIBYA = {
     capped_resources = {
         bg_fishing = 8
     }
-#    resource = {
-#        type = "bg_oil_extraction"
-#        undiscovered_amount = 50
-#    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30#50
+    }
     naval_exit_id = 3033
 }
 

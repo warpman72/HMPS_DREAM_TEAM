@@ -317,10 +317,10 @@ STATE_NORTHERN_MANCHURIA = {
         bg_iron_mining = 36
         bg_logging = 68
     }
-#    resource = {
-#        type = "bg_oil_extraction"
-#        undiscovered_amount = 50
-#    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30#50
+    }
 }
 
 STATE_SHANXI = {

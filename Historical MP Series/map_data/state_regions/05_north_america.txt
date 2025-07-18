@@ -972,7 +972,7 @@ STATE_ALBERTA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30#80
+        undiscovered_amount = 50#80
     }
 }
 
