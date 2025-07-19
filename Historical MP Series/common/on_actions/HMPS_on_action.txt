@@ -279,11 +279,11 @@ HMPS_France_Pop_Growth = {
 						is_decaying = yes
 						years = 100
 					}
-					add_modifier = {
-						name = france_early_game_birth_fix			
-						is_decaying = yes
-						years = 30
-					}
+					#add_modifier = {
+					#	name = france_early_game_birth_fix			
+					#	is_decaying = yes
+					#	years = 30
+					#}
 					set_global_variable = french_pop_nerf
 				}
 			}
