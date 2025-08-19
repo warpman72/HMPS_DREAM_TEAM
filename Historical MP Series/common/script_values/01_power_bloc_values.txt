@@ -299,7 +299,7 @@ power_bloc_great_power_non_leader_members = {
 	every_power_bloc_member = {
 		if = {
 			limit = {
-				is_power_bloc_leader = no
+				is_power_bloc_leader = yes
 				country_rank = rank_value:great_power
 			}
 			add = 1
