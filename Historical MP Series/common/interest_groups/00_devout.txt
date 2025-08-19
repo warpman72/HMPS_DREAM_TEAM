@@ -449,6 +449,15 @@
 				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani
 			}
 		}
+		ruler = {
+			trigger = {
+				c:HAW ?= this
+				NOT = { has_variable = deported_americans }
+			}
+			cultures = {
+				yankee dixie british hawaiian
+			}
+		}
 	}
 	
 	on_character_ig_membership = {
@@ -502,7 +511,7 @@
 				limit = {
 					is_pop_type = clergymen
 				}
-				value = 250
+				value = 300 #HMPS increase from 250
 			}
 		}
 
