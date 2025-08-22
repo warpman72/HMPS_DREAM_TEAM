@@ -179,6 +179,9 @@
  #stupid garbage
  building_subsistence_rice_paddies_throughput_add: "$building_subsistence_rice_paddies$ building [concept_throughput]"
  building_subsistence_rice_paddies_throughput_add_desc: "A bonus or penalty to both input and output of $building_subsistence_rice_paddies$"
+ 
+ building_subsistence_pastures_throughput_add: "$building_subsistence_pastures$ building [concept_throughput]"
+ building_subsistence_pastures_throughput_add_desc: "A bonus or penalty to both input and output of $building_subsistence_pastures$"
 
  building_group_bg_hardwood_throughput_add: "$bg_hardwood$ [concept_throughput]"
  building_group_bg_hardwood_throughput_add_desc: "A bonus or penalty to both input and output of $bg_hardwood$"
@@ -204,8 +207,8 @@
  max_rubber_indicator_desc: "How much total Rubber can be built in a state after all has been discovered"
  modifier_max_rubber_indicator: "State Max Rubber Indicator"
  
- india_state_nerf: "Highly Populated, Hyper Agrarian Society (Also more likely for Droughts)"
- china_state: "Integral part of China (This state will get -30% mapi and construction if owned by a forigen power. Also has higher Flood chance)"
+ india_state_nerf: "Highly Populated, Hyper Agrarian Society (Also 5x Drought Chance)"
+ china_state: "Integral part of China (This state will get -30% mapi and construction if owned by a forigen power. Also has 8x Flood Chance)"
  china_state_nerf: "Chinese Hyper Populous Non-Cooperation"
  modifier_india_neo_imperialism_cost_reduction: "Anti-Neo-Imperialist Sentiment"
  modifier_india_neo_imperialism: "Outrage over Neo-Imperialism"
@@ -221,3 +224,4 @@
  
  modifier_demographic_workforce_ratio: "Demographic Profile (impacted by SoL)"
  modifier_demographic_workforce_ratio_desc: "As a societies and populations develop the portion of working age adults changes" #not useded
+ modifier_defacto_capitulate: "Defacto Capitulation"

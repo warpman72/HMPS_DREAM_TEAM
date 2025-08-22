@@ -935,6 +935,10 @@ ideology_reformer = {
 		law_womens_suffrage = neutral
 	}
 	
+	lawgroup_land_reform = {
+		law_serfdom = strongly_disapprove
+	}	
+	
 	lawgroup_childrens_rights = {
 		law_child_labor_allowed = disapprove
 		law_restricted_child_labor = neutral
@@ -3917,20 +3921,6 @@ ideology_authoritarian = {
 		law_vanguardism = approve
 	}
 	
-	lawgroup_income_tax = {
-		law_no_income_taxes = disapprove
-		law_low_income_tax = disapprove
-		law_moderate_income_tax = approve
-		law_high_income_tax = strongly_approve
-	}
-	
-	lawgroup_corporation_tax = {
-		law_no_corporation_taxes= disapprove
-		law_low_corporation_tax = disapprove
-		law_moderate_corporation_tax = approve
-		law_high_corporation_tax = strongly_approve
-	}
-	
 	lawgroup_executive_structure = {
 		law_independent_executive = strongly_approve
 		law_dual_executive = neutral
@@ -6408,6 +6398,10 @@ ideology_modernizer_leader = {
 		law_private_schools = neutral
 		law_religious_schools = neutral
 		law_no_schools = disapprove
+	}
+	
+	lawgroup_land_reform = {
+		law_serfdom = strongly_disapprove
 	}
 
 	country_trigger = {
