@@ -225,3 +225,4 @@
  modifier_demographic_workforce_ratio: "Demographic Profile (impacted by SoL)"
  modifier_demographic_workforce_ratio_desc: "As a societies and populations develop the portion of working age adults changes" #not useded
  modifier_defacto_capitulate: "Defacto Capitulation"
+ modifier_country_institution_cost_institution_research_mult: "Research Institution"

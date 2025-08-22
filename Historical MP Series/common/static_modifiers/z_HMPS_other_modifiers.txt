@@ -168,3 +168,9 @@ modifier_defacto_capitulate = {
 	#state_lower_strata_expected_sol_add = 5
 	#state_middle_strata_expected_sol_add = 10
 	#state_upper_strata_expected_sol_add = 15
+}
+
+modifier_country_institution_cost_institution_research_mult = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_explosion_positive.dds
+	country_institution_cost_institution_research_mult = 1
+}

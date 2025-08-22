@@ -1039,6 +1039,7 @@ on_monthly_pulse_country = {
 			}
 			set_variable = its_a_blockade_happened
 		}
+		handle_research_insitution_bureaucracy_cost_scaling_modifier = yes
 	}
 	#on_actions = { # delay ensures events won't fire simultaneously HMPS Redudant pdx code
 	#	coup_monthly_events
@@ -3620,8 +3621,8 @@ on_law_checkpoint_debate = {
 		10 = agitator_legal_events.19
 		10 = agitator_legal_events.20
 		10 = technocracy.3
-		#10 = corporate_state.2
-		#10 = corporate_state.5
+		10 = corporate_state.2
+		10 = corporate_state.5
 	}
 	events = {
 		tanzimat_events.1
@@ -3723,8 +3724,8 @@ on_law_checkpoint_stall = {
 		10 = agitator_legal_events.9
 		10 = agitator_legal_events.10
 		10 = technocracy.1
-		#10 = corporate_state.3
-		#10 = corporate_state.6
+		10 = corporate_state.3
+		10 = corporate_state.6
 	}
 }
 

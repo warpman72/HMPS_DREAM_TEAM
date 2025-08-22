@@ -10,3 +10,7 @@
  treaty_name_oman_usa_treaty:0 "American-Omani Treaty of Amity and Commerce" 
  
  state_trait_hamgyong_mountains:0 "Hamgyong Mountains"
+ pm_qualifications_focus:0 "Qualifications Focus"
+ pm_migration_focus:0 "Migration Focus"
+ pm_enlistment_focus:0 "Enlistment Focus"
+ pmg_university_specialization:0 "University Specialization"

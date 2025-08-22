@@ -62,6 +62,7 @@ rationalism = {
 	modifier = {
 		country_institution_schools_max_investment_add = 1
 		state_education_access_wealth_add = 0.01
+		country_institution_research_max_investment_add = 5
 	}
 	
 	ai_weight = {
@@ -1183,7 +1184,7 @@ investment_banks = {
 	category = society
 	
 	modifier = {
-		#country_max_companies_add = 1
+		country_max_companies_add = 1
 		state_market_access_price_impact = 0.025
 		country_free_charters_add = 1
 	}	
