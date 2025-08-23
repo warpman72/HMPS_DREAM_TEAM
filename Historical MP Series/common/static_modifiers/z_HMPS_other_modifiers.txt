@@ -171,6 +171,8 @@ modifier_defacto_capitulate = {
 }
 
 modifier_country_institution_cost_institution_research_mult = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_explosion_positive.dds
+	#icon = gfx/interface/icons/timed_modifier_icons/modifier_explosion_positive.dds
+	icon = gfx/interface/icons/generic_icons/innovation.dds
+	#icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_institution_cost_institution_research_mult = 1
 }

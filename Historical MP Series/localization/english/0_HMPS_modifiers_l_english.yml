@@ -226,3 +226,5 @@
  modifier_demographic_workforce_ratio_desc: "As a societies and populations develop the portion of working age adults changes" #not useded
  modifier_defacto_capitulate: "Defacto Capitulation"
  modifier_country_institution_cost_institution_research_mult: "Research Institution"
+ country_research_institution_cost_scales_with_square_of_level_bool: "Research Institution Cost Scales with level squared"
+ country_research_institution_first_level_free_bool: "Research Institution is free while at level 1"
