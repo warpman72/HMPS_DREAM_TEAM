@@ -277,16 +277,16 @@ decree_promote_national_values = {
 		centralization
 	}
 	state_trigger = {
-		OR = {
-			has_assimilating_pops = yes
-			has_converting_pops = yes
-		}
+		#OR = {
+		#	has_assimilating_pops = yes
+		#	has_converting_pops = yes
+		#}
 	}
 	modifier = {
 		state_assimilation_mult = 0.4
 		state_conversion_mult = 0.6
 	}
-	cost = 100
+	cost = 50
 
 	ai_weight = {
 		value = 0
