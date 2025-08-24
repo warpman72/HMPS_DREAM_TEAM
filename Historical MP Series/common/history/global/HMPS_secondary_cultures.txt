@@ -1,4 +1,31 @@
 ﻿GLOBAL = {
+	c:TUR = {
+		add_modifier = secondary_culture_european_heritage
+	}
+	c:AUS = {
+		add_modifier = secondary_culture_czech
+	}
+	#c:RUS = {
+	#	add_modifier = secondary_culture_byelorussian
+	#	add_modifier = secondary_culture_ukrainian
+	#}
+	c:PER = {
+		add_modifier = secondary_culture_azerbaijani
+	}
+	every_country = {
+		limit = {
+			OR = {
+				country_has_primary_culture = cu:anglo_canadian
+				country_has_primary_culture = cu:australian
+			}
+		}
+		add_modifier = secondary_culture_british
+	}
+	
+	### SIGMAtised Cultures
+	c:GBR = {
+		add_modifier = stigmatised_culture_irish
+	}
 	every_country = {
 		limit = {
 			OR = {
@@ -8,21 +35,5 @@
 			}
 		}
 		add_modifier = stigmatised_culture_jewish_group
-	}
-	c:TUR = {
-		add_modifier = secondary_culture_european_heritage
-	}
-	c:AUS = {
-		add_modifier = secondary_culture_czech
-	}
-	c:RUS = {
-		add_modifier = secondary_culture_byelorussian
-		add_modifier = secondary_culture_ukrainian
-	}
-	c:GBR = {
-		add_modifier = stigmatised_culture_irish
-	}
-	c:PER = {
-		add_modifier = secondary_culture_azerbaijani
 	}
 }

@@ -262,7 +262,19 @@ max_rubber_indicator = {#HMPS, does nothing but allows for a modifier to indicat
 	decimals=0
 }
 
-country_yearly_population_replacement_add = { #HMPS, does nothing, only for a tool tip
+state_yearly_population_replacement_add = {
+	color=neutral
+	percent=yes
+	decimals=2
+}
+
+state_yearly_cross_heritage_language_learning_add = {
+	color=neutral
+	percent=yes
+	decimals=2
+}
+
+state_yearly_force_conversion_add = {
 	color=neutral
 	percent=yes
 	decimals=2
@@ -290,6 +302,46 @@ country_research_institution_cost_scales_with_square_of_level_bool={
 	decimals=1
 	color=neutral
 	boolean=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_afro_italian_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_afro_german_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_afro_dutch_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_afro_slavic_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_afro_scandinavian_standard_of_living_add={
+	decimals=1
+	color=good
 	game_data={
 		ai_value=0
 	}

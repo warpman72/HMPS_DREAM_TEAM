@@ -26,6 +26,7 @@ HMPS_handle_secondary_cultures = { #Country Scope
 					has_modifier = secondary_culture_afro_american
 					has_modifier = secondary_culture_ashkenazi
 					has_modifier = secondary_culture_azerbaijani
+					has_modifier = secondary_culture_british
 					has_modifier = secondary_culture_byelorussian
 					has_modifier = secondary_culture_czech
 					has_modifier = secondary_culture_polish
@@ -73,6 +74,7 @@ HMPS_handle_secondary_cultures = { #Country Scope
 							AND = { root = { has_modifier = secondary_culture_afro_american } this = cu:afro_american }
 							AND = { root = { has_modifier = secondary_culture_azerbaijani } this = cu:azerbaijani }
 							AND = { root = { has_modifier = secondary_culture_ashkenazi } this = cu:ashkenazi }
+							AND = { root = { has_modifier = secondary_culture_british } this = cu:british }
 							AND = { root = { has_modifier = secondary_culture_byelorussian } this = cu:byelorussian }
 							AND = { root = { has_modifier = secondary_culture_czech } this = cu:czech }
 							AND = { root = { has_modifier = secondary_culture_polish } this = cu:polish }
@@ -146,6 +148,7 @@ HMPS_revolution_inherit_secondary_cultures_modifier = {
         if = { limit = { root = { has_modifier = secondary_culture_afro_american                    } } scope:target = { add_modifier = secondary_culture_afro_american                    } }
         if = { limit = { root = { has_modifier = secondary_culture_ashkenazi                        } } scope:target = { add_modifier = secondary_culture_ashkenazi                        } }
         if = { limit = { root = { has_modifier = secondary_culture_azerbaijani                      } } scope:target = { add_modifier = secondary_culture_azerbaijani                      } }
+        if = { limit = { root = { has_modifier = secondary_culture_british                          } } scope:target = { add_modifier = secondary_culture_british                          } }
         if = { limit = { root = { has_modifier = secondary_culture_byelorussian                     } } scope:target = { add_modifier = secondary_culture_byelorussian                     } }
         if = { limit = { root = { has_modifier = secondary_culture_czech                            } } scope:target = { add_modifier = secondary_culture_czech                            } }
         if = { limit = { root = { has_modifier = secondary_culture_polish                           } } scope:target = { add_modifier = secondary_culture_polish                           } }

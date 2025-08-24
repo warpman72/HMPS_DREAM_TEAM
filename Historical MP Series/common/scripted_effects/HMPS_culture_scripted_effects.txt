@@ -102,18 +102,114 @@
 		target = owner.religion
 		value = 0.0001
 	}
+	
+	#### CUSTOMS
+	if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = francophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_antillean
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = hispanophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_caribeno
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = anglophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_caribbean
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = italophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_italian
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = german_speaking } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_german
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = beneluxian_culture_group } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_dutch
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = scandinavian_culture_group } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_scandinavian
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = west_slavic } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_slavic
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = east_slavic } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_slavic
+				value = 0.0001
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = lusophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_brazilian
+				value = 0.0001
+			}
+		}
+	}
 }
-
-
 population_replacement = {
 	save_scope_as = new_state
 	owner = {
 		random_primary_culture = {
 			save_scope_as = spawning_culture
-		}
-		set_variable = {
-			name = yearly_population_replacement
-			value = modifier:country_yearly_population_replacement_add
 		}
 	}
 	ordered_scope_pop = {
@@ -198,7 +294,177 @@ population_replacement = {
 		check_range_bounds = no
 		change_pop_culture = { 
 			target = scope:spawning_culture 
-			value = var:yearly_population_replacement
+			value = prev.modifier:state_yearly_population_replacement_add
+		}
+	}
+	
+	#### CUSTOMS
+	if = {
+		limit = {
+			owner = {
+				any_primary_culture = {
+					has_discrimination_trait = francophone 
+				}
+			}
+		}
+		
+		every_scope_pop = {
+			limit = {
+				culture = {
+					has_discrimination_trait = african_heritage  
+				}
+			}
+			change_pop_culture = { 
+				target = cu:afro_antillean
+				value = prev.modifier:state_yearly_population_replacement_add
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			owner = {
+				any_primary_culture = {
+					has_discrimination_trait = hispanophone 
+				}
+			}
+		}
+		
+		every_scope_pop = {
+			limit = {
+				culture = {
+					has_discrimination_trait = african_heritage  
+				}
+			}
+			change_pop_culture = { 
+				target = cu:afro_caribeno
+				value = prev.modifier:state_yearly_population_replacement_add
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			owner = {
+				any_primary_culture = {
+					has_discrimination_trait = anglophone 
+				}
+			}
+		}
+		
+		every_scope_pop = {
+			limit = {
+				culture = {
+					has_discrimination_trait = african_heritage  
+				}
+			}
+			change_pop_culture = { 
+				target = cu:afro_caribbean
+				value = prev.modifier:state_yearly_population_replacement_add
+			}
+		}
+	}
+}
+force_population_language_teaching = {
+	save_scope_as = new_state
+	
+	#### CUSTOMS
+	if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = francophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_antillean
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = hispanophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_caribeno
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = anglophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_caribbean
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = italophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_italian
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = german_speaking } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_german
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = beneluxian_culture_group } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_dutch
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = scandinavian_culture_group } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_scandinavian
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = west_slavic } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_slavic
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = east_slavic } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_slavic
+				value = 0.005
+			}
+		}
+	}
+	else_if = {
+		limit = { owner = { any_primary_culture = { has_discrimination_trait = lusophone } } }
+		every_scope_pop = {
+			limit = { culture = { has_discrimination_trait = african_heritage } }
+			change_pop_culture = { 
+				target = cu:afro_brazilian
+				value = 0.005
+			}
 		}
 	}
 }

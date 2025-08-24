@@ -4,6 +4,7 @@
  secondary_culture_afro_american:0 "Has Afro-American as a [concept_secondary_culture]"
  secondary_culture_ashkenazi:0 "Has Ashkenazi as a [concept_secondary_culture]"
  secondary_culture_azerbaijani:0 "Has Azerbaijani as a [concept_secondary_culture]"
+ secondary_culture_british:0 "Has English as a [concept_secondary_culture]"
  secondary_culture_byelorussian:0 "Has Byelorussian as a [concept_secondary_culture]"
  secondary_culture_czech:0 "Has Czech as a [concept_secondary_culture]"
  secondary_culture_polish:0 "Has Polish as a [concept_secondary_culture]"
@@ -32,3 +33,9 @@
  stigmatised_culture_han_chinese:0 "Has Han Chinese Cultures as [concept_stigmatised_cultures]"
  stigmatised_culture_irish:0 "Has Irish as a [concept_stigmatised_culture]"
  stigmatised_culture_jewish_group:0 "Has Jewish Cultures as [concept_stigmatised_cultures]"
+ 
+ afro_italian: "Afro-Italiano"
+ afro_german: "Afrodeutsch"
+ afro_dutch: "Afro-Nederlands"
+ afro_slavic: "Afrorossiyane"
+ afro_scandinavian: "Afro-Skandinavisk"

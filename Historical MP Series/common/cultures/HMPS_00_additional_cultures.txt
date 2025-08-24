@@ -122,3 +122,73 @@ scottish={
 	}
 	graphics = european
 }
+
+afro_italian = {
+	color= hsv{ 0.53 0.21 0.29 }
+	religion = catholic
+	traits = { african_heritage italophone }
+	male_common_first_names = { Carlo }
+	female_common_first_names = { Beatrice }	
+	noble_last_names = { Gebaix_de_Sonnaz }
+	common_last_names = { Quaglia }
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+afro_german = {
+	color= hsv{ 0.53 0.21 0.29 }
+	religion = catholic
+	traits = { african_heritage german_speaking }
+	male_common_first_names = { Carlo }
+	female_common_first_names = { Beatrice }	
+	noble_last_names = { Gebaix_de_Sonnaz }
+	common_last_names = { Quaglia }
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+afro_dutch = {
+	color= hsv{ 0.53 0.21 0.29 }
+	religion = catholic
+	traits = { african_heritage beneluxian_culture_group }
+	male_common_first_names = { Carlo }
+	female_common_first_names = { Beatrice }	
+	noble_last_names = { Gebaix_de_Sonnaz }
+	common_last_names = { Quaglia }
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+afro_slavic = {
+	color= hsv{ 0.53 0.21 0.29 }
+	religion = catholic
+	traits = { african_heritage west_slavic east_slavic }
+	male_common_first_names = { Carlo }
+	female_common_first_names = { Beatrice }	
+	noble_last_names = { Gebaix_de_Sonnaz }
+	common_last_names = { Quaglia }
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+afro_scandinavian = {
+	color= hsv{ 0.53 0.21 0.29 }
+	religion = catholic
+	traits = { african_heritage scandinavian_culture_group }
+	male_common_first_names = { Carlo }
+	female_common_first_names = { Beatrice }	
+	noble_last_names = { Gebaix_de_Sonnaz }
+	common_last_names = { Quaglia }
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}

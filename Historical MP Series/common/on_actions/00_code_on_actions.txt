@@ -1308,6 +1308,25 @@ on_yearly_pulse_country = {
 				seed_assimilation_and_conversion = yes
 			}
 		}
+		if = {
+			limit = {
+				has_law = law_type:law_language_discrimination
+			}
+			every_scope_state = {
+				force_population_language_teaching = yes
+			}
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_state_religion
+			}
+			every_scope_state = {
+				convert_population = {
+					target = owner.religion
+					value = prev.modifier:state_yearly_force_conversion_add
+				}
+			}
+		}
 	}
 	on_actions = { # delay ensures events won't fire simultaneously
 		on_memento_mori # IG leader death
