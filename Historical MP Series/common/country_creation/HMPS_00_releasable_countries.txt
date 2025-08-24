@@ -76,3 +76,12 @@ NEN = {
 
 	ai_will_do = { always = no }
 }
+
+UKR = {
+	#states = { STATE_EAST_GALICIA STATE_CHERSON STATE_VOLHYNIA STATE_KIEV STATE_TAURIDA STATE_KHARKOV STATE_CRIMEA STATE_CHERNIHIV }
+	states = { STATE_EAST_GALICIA STATE_CHERSON STATE_VOLHYNIA STATE_KIEV }
+
+	required_num_states = 2
+
+	ai_will_do = { always = no }
+}
