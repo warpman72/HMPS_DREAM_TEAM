@@ -41,13 +41,13 @@ law_private_research_grant_funding = {
 		country_institution_cost_institution_research_mult = 0
 		country_weekly_innovation_add = 50
 		country_weekly_innovation_max_add = 50
-		country_tech_spread_add = 20
+		country_tech_spread_add = 10
 		country_research_institution_cost_scales_with_square_of_level_bool = yes
 		country_research_institution_first_level_free_bool = yes
 	}
 	
 	institution_modifier = {
-		country_tech_spread_add = 20
+		country_tech_spread_add = 25
 		
 		country_academics_pol_str_mult = 0.02
 		country_bureaucrats_pol_str_mult = 0.01
