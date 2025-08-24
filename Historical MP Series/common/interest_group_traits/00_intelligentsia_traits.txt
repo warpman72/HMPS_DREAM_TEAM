@@ -4,7 +4,7 @@
 	
 	modifier = {
 		#country_legitimacy_base_add = 10 #Default
-		country_legitimacy_govt_total_clout_add = 25
+		country_legitimacy_govt_total_clout_add = 20
 	}
 }
 
