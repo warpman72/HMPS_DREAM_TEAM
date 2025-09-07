@@ -346,3 +346,15 @@ state_afro_scandinavian_standard_of_living_add={
 		ai_value=0
 	}
 }
+
+country_amount_tooltip_modifier_add ={ #HMPS does nothing, just to be used as a general tooltip
+	decimals=2
+	color=neutral
+	percent=no
+}
+
+country_infamy_transferred_from_subject_add ={ #HMPS does nothing, just to be used to generate a tooltip
+	decimals=1
+	color=neutral
+	percent=no
+}

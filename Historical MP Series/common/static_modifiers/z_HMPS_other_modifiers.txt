@@ -176,3 +176,9 @@ modifier_country_institution_cost_institution_research_mult = {
 	#icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_institution_cost_institution_research_mult = 1
 }
+
+modifier_infamy_transferred_from_subject = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	#country_amount_tooltip_add = 1
+	country_infamy_transferred_from_subject_add = 1
+}

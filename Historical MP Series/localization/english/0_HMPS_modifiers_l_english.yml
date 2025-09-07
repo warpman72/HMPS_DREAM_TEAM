@@ -232,3 +232,10 @@
  modifier_country_institution_cost_institution_research_mult: "Research Institution"
  country_research_institution_cost_scales_with_square_of_level_bool: "Research Institution Cost Scales With Level Squared"
  country_research_institution_first_level_free_bool: "Research Institution Is Free While At Level 1"
+ 
+ country_infamy_transferred_from_subject_add: "Infamy has been Transfered"
+ country_infamy_transferred_from_subject_add_desc: "How much infamy was recently transfered from a player Subject to an Overlord"
+ modifier_infamy_transferred_from_subject: "Recent Subject Infamy Transfer"
+ 
+ country_amount_tooltip_add: "Amount"
+ country_amount_tooltip_add_desc: "Amount of something (just exists for tooltips)"
