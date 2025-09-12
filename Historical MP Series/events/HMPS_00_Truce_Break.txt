@@ -76,6 +76,11 @@ truce_break.1 = {
 		else = {
 			change_infamy = 75
 		}
+		add_modifier = {
+			name = modifier_truce_broken
+			days = normal_modifier_time #5 years
+			is_decaying = yes
+		}
 	}
 	
 	

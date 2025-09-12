@@ -239,3 +239,5 @@
  
  country_amount_tooltip_add: "Amount"
  country_amount_tooltip_add_desc: "Amount of something (just exists for tooltips)"
+ 
+ modifier_truce_broken: "Recently Broke a Truce"

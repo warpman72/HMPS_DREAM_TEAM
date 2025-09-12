@@ -73,3 +73,10 @@ modifier_domestic_photographs = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_authority_mult = 0.05
 }
+
+modifier_truce_broken = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_in_opposition_approval_add = -2
+	country_authority_add = -300
+	country_influence_mult = -0.10
+}
