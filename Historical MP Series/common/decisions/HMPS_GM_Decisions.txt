@@ -65,3 +65,33 @@ GM_disable_auto_subject_infamy_transfer = {
 		set_global_variable = auto_infamy_transfer_disabled
     }
 }
+
+GM_fix_japan_ethnostate_being_bugged = {
+	is_shown = {
+		has_modifier = game_master
+		#NOT = { has_global_variable = japan_ethnostate_finished }
+	}
+	
+	when_taken = {
+		c:JAP = {
+			every_scope_state = {
+				population_replacement = yes
+			}
+		}
+		c:JAP = {
+			every_scope_state = {
+				population_replacement = yes
+			}
+		}
+		c:JAP = {
+			every_scope_state = {
+				population_replacement = yes
+			}
+		}
+		c:JAP = {
+			every_scope_state = {
+				population_replacement = yes
+			}
+		}
+    }
+}
