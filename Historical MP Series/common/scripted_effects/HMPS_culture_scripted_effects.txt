@@ -294,72 +294,7 @@ population_replacement = {
 		check_range_bounds = no
 		change_pop_culture = { 
 			target = scope:spawning_culture 
-			value = prev.modifier:state_yearly_population_replacement_add
-		}
-	}
-	
-	#### CUSTOMS
-	if = {
-		limit = {
-			owner = {
-				any_primary_culture = {
-					has_discrimination_trait = francophone 
-				}
-			}
-		}
-		
-		every_scope_pop = {
-			limit = {
-				culture = {
-					has_discrimination_trait = african_heritage  
-				}
-			}
-			change_pop_culture = { 
-				target = cu:afro_antillean
-				value = prev.modifier:state_yearly_population_replacement_add
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			owner = {
-				any_primary_culture = {
-					has_discrimination_trait = hispanophone 
-				}
-			}
-		}
-		
-		every_scope_pop = {
-			limit = {
-				culture = {
-					has_discrimination_trait = african_heritage  
-				}
-			}
-			change_pop_culture = { 
-				target = cu:afro_caribeno
-				value = prev.modifier:state_yearly_population_replacement_add
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			owner = {
-				any_primary_culture = {
-					has_discrimination_trait = anglophone 
-				}
-			}
-		}
-		
-		every_scope_pop = {
-			limit = {
-				culture = {
-					has_discrimination_trait = african_heritage  
-				}
-			}
-			change_pop_culture = { 
-				target = cu:afro_caribbean
-				value = prev.modifier:state_yearly_population_replacement_add
-			}
+			value = 0.01
 		}
 	}
 }
